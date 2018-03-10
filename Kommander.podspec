@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/intelygenz/Kommander-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors          = { 'Alex Rupérez' => 'alejandro.ruperez@intelygenz.com', 'Juan Trías' => 'juan.trias@intelygenz.com', 'Roberto Estrada' => 'roberto.estrada@intelygenz.com' }
+  s.static_framework = true
   s.source           = { :git => 'https://github.com/intelygenz/Kommander-iOS.git', :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/intelygenz"
 
