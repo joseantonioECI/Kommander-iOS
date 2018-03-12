@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Kommander'
+  s.name             = 'Kommander-Static'
   s.version          = '1.0'
   s.summary          = 'A command pattern implementation written in Swift'
 
