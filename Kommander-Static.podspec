@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.source           = { :git => 'https://github.com/intelygenz/Kommander-iOS.git', :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/intelygenz"
+  s.swift_version = '4.1'
 
   s.ios.deployment_target = '8.0'
   s.watchos.deployment_target = '2.0'
